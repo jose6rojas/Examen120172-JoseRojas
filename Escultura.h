@@ -12,7 +12,7 @@ class Escultura : public Obra
 {
 	private:
 		double peso;
-		string material;
+		string material; // con el que esta hecho
 	public:
 		Escultura();
 		Escultura(string, string, string, string, double, string);
