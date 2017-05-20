@@ -17,3 +17,20 @@ Obra::Obra(string id, string nombre, string autor, string fechaIngreso)
 	this -> autor = autor;
 	this -> fechaIngreso = fechaIngreso;
 }
+
+string Obra::getID()
+{
+	return id;
+}
+string Obra::getNombre()
+{
+	return nombre;
+}
+string Obra::getAutor()
+{
+	return autor;
+}
+string Obra::getFechaIngreso()
+{
+	return fechaIngreso;
+}

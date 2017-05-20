@@ -17,6 +17,11 @@ class Escultura : public Obra
 		Escultura();
 		Escultura(string, string, string, string, double, string);
 		// id, nombre, autor, fechaIngreso, peso, material
+		
+		string getID();
+                string getNombre();
+                string getAutor();
+                string getFechaIngreso();
 };
 
 #endif

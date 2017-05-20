@@ -13,3 +13,20 @@ Lit::Lit(string id, string nombre, string autor, string fechaIngreso, string gen
 	this -> genero = genero;
 	this -> epoca = epoca;
 }
+
+string Lit::getID()
+{
+	return id;
+}
+string Lit::getNombre()
+{
+	return nombre;
+}
+string Lit::getAutor()
+{
+	return autor;
+}
+string Lit::getFechaIngreso()
+{
+	return fechaIngreso;
+}

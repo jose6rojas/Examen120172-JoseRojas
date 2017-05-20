@@ -13,3 +13,20 @@ Escultura::Escultura(string id, string nombre, string autor, string fechaIngreso
 	this -> peso = peso;
 	this -> material = material;
 }
+
+string Escultura::getID()
+{
+	return id;
+}
+string Escultura::getNombre()
+{
+	return nombre;
+}
+string Escultura::getAutor()
+{
+	return autor;
+}
+string Escultura::getFechaIngreso()
+{
+	return fechaIngreso;
+}

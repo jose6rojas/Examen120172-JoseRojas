@@ -11,3 +11,20 @@ Arqui::Arqui(string id, string nombre, string autor, string fechaIngreso, string
 {
 	this -> terreno = terreno;
 }
+
+string Arqui::getID()
+{
+	return id;
+}
+string Arqui::getNombre()
+{
+	return nombre;
+}
+string Arqui::getAutor()
+{
+	return autor;
+}
+string Arqui::getFechaIngreso()
+{
+	return fechaIngreso;
+}

@@ -18,6 +18,11 @@ class Obra
 		Obra();
 		Obra(string, string, string, string);
 		// id, nombre, autor, fechaIngreso
+		
+		string getID();
+                string getNombre();
+                string getAutor();
+                string getFechaIngreso();
 };
 
 #endif

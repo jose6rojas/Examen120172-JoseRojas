@@ -16,6 +16,11 @@ class Arqui : public Obra
 		Arqui();
 		Arqui(string, string, string, string, string);
 		// id, nombre, autor, fechaIngreso, terreno
+		
+		string getID();
+                string getNombre();
+                string getAutor();
+                string getFechaIngreso();
 };
 
 #endif

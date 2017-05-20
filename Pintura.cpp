@@ -13,3 +13,20 @@ Pintura::Pintura(string id, string nombre, string autor, string fechaIngreso, st
 	this -> material = material;
 	this -> tecnica = tecnica;
 }
+
+string Pintura::getID()
+{
+	return id;
+}
+string Pintura::getNombre()
+{
+	return nombre;
+}
+string Pintura::getAutor()
+{
+	return autor;
+}
+string Pintura::getFechaIngreso()
+{
+	return fechaIngreso;
+}

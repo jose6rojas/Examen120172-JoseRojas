@@ -17,6 +17,11 @@ class Pintura : public Obra
 		Pintura();
 		Pintura(string, string, string, string, string, string);
 		// id, nombre, autor, fechaIngreso, material, tecnica
+		
+		string getID();
+                string getNombre();
+                string getAutor();
+                string getFechaIngreso();
 };
 
 #endif
